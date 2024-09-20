@@ -26,13 +26,13 @@ const ProductShowcase = () => {
             src={pyramidImage}
             alt="Pyramid Image"
             height={262}
-            className="hidden md:absolute -right-36 -top-32"
+            className="hidden md:block absolute -right-36 -top-32"
           />
           <Image
             src={tubeImage}
             alt="Tube Image"
             height={248}
-            className="hidden md:absolute bottom-24 -left-36"
+            className="hidden md:block absolute bottom-24 -left-36"
           />
         </div>
       </div>
